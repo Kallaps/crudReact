@@ -1,13 +1,93 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.addIcon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+.inpAdd {
+  width: 300px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(169, 169, 169);
+  margin-left: 80px;
+}
+.addModalBody {
+  display: flex;
+  flex-direction: column;
+}
+.ContactList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+.card-body {
+  width: 220px;
+  height: 290px;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: hsla(269, 100%, 12%, 0.448) 0 15px 30px -5px;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+}
+.card {
+  border: 10px solid white;
+  margin-right: 40px;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.btn {
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  background-color: #212121;
+  margin: 10px;
+  border-radius: 50%;
+  margin-left: 55px;
+}
+.addBtn {
+  padding: 8px 10px;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.modal-header {
+  background-color: #212121;
+  color: black;
+  background-color: white;
+}
+.center {
+  font-size: 100px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.437);
+  padding: 10px;
+  margin: auto;
+}
+.video {
+  position: fixed;
+  z-index: -5;
+  top: 0;
+  width: 100%;
 }
